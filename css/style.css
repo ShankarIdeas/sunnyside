@@ -1,0 +1,111 @@
+/* Reset */
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  /* ### Font
+
+- Family: [Barlow](https://fonts.google.com/specimen/Barlow)
+- Weights: 600
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700, 900 */
+/* Main Styling */
+html,body {
+font-family:  'Barlow', sans-serif;
+/* font-family: 'Fraunces', serif; */
+font-size: 18px;
+line-height: 1.7em;
+}
+
+a {
+color: hsl(0, 0%, 100%);
+text-decoration: none;
+}
+
+h1, h2, h3 {
+padding-bottom: 20px;
+}
+
+p {
+margin: 10px 0;
+}
+
+/* Utility Classes */
+.header {
+    margin: auto;
+    max-width: 1440px;
+    overflow: auto;
+    background-image: "./img/desktop/image-header.jpg";
+   }
+.container {
+margin: auto;
+max-width: 1440px;
+overflow: auto;
+padding: 0 20px;
+background: hsl(200, 100%, 62.2%);
+
+}
+
+.text-primary {
+color: hsl(0, 0%, 100%);
+}
+
+.lead {
+font-size: 20px;
+}
+
+.btn {
+display: inline-block;
+font-size: 18px;
+color: hsl(0, 0%, 100%);
+background: #333;
+padding: 13px 20px;
+border: none;
+cursor: pointer;
+}
+/* Navbar */
+#navbar {
+  color: #fff;
+  overflow: auto;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar .logo {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover, 
+#navbar ul li a.current {
+  background: hsl(0, 0%, 100%);
+  margin-top: 12px;
+  line-height: .5em;
+  border-radius: 30px;
+  background-size: contain;
+  align-self: center;
+  color: hsl(198, 62%, 26%);
+}
+#showcase .showcase-content {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding-top: 170px;
+  }
